@@ -1,0 +1,83 @@
+Most tiles by the supremely talented (and generous) David Gervais. You can
+download his tilesets from here:
+
+    http://pousse.rapiere.free.fr/tome/
+
+Part of the graphic tiles used in this program is the public domain roguelike
+tileset "RLTiles". Some of the tiles have been modified by me.
+
+    http://rltiles.sf.net
+
+Also, the more recent Crawl tiles:
+
+    http://git.develz.org/?p=crawl.git;a=summary
+
+Nuclear explosion, Pearl effect by Jetrel.
+
+Smoke, Steam, and K-T Event effects by Pow Studios. http://powstudios.com
+
+Many other graphics obtained from http://opengameart.org
+
+
+Programming mostly by Joseph Hewitt, except the bits I stole from other people.
+
+
+Poster credits:
+
+Boadicea, from Costumes of All Nations by Albert Kretschmer, 1882,
+  obtained from Wikimedia Commons. Public Domain.
+
+Bogatyrs by Viktor Vasnetsov, obtained from Wikimedia Commons,
+  Public Domain in countries with a copyright term of life of the author plus 80 years or less.
+
+Book of Hours, from Très Riches Heures du Duc de Berry by the Limbourg brothers,
+  obtained from Wikimedia Commons. Public Domain.
+
+Brunhilde by Arthur Rackham. 1910,
+  obtained from Wikimedia Commons. Public Domain.
+
+De Monstris from the 1665 edition of Fortunio Liceti’s De Monstris,
+  obtained from Public Domain Review. Public Domain.
+
+From The Boy's King Arthur, N.C. Wyeth, 1922,
+  obtained from Wikimedia Commons. Public Domain.
+
+Idylls of the King by Gustave Doré, 1868,
+  obtained from Wikimedia Commons. Public Domain.
+
+Leiv Eiriksson by Christian Krohg, 1893,
+  obtained from Wikimedia Commons. Public Domain.
+
+One summer's evening they went with Bianca Maria deep into the forest by John Bauer,
+  obtained from Wikimedia Commons. Public Domain in countries with a copyright
+  term of life of the author plus 90 years or less.
+
+Perseus Confronting Phineus with the Head of Medusa by Sebastiano Ricci, c.1705-10,
+  obtained from Wikimedia Commons. Public Domain.
+
+Revalation by Gaston Bussière,
+  obtained from Wikimedia Commons. Public Domain.
+
+Ritterturnier by Zygmunt Ajdukiewicz, 1912,
+  obtained from Wikimedia Commons. Public Domain in countries with a copyright
+  term of life of the author plus 70 years or less.
+
+Saint George and the Dragon by Paolo Uccello, between 1458 and 1460,
+  obtained from Wikimedia Commons. Public Domain.
+
+The Past by Thomas Cole, 1838,
+  obtained from Wikimedia Commons. Public Domain.
+
+The Present by Thomas Cole, 1838,
+  obtained from Wikimedia Commons. Public Domain.
+
+The Temptation of Saint Anthony by Matthias Grünewald, c1515,
+  obtained from Wikimedia Commons. Public Domain.
+
+Valkyries by Emil Doepler, 1905,
+  obtained from Wikimedia Commons. Public Domain.
+
+Yorimasa Awaiting the Nue by Tsukioka Yoshitoshi, 1882,
+  obtained from Public Domain Review. Public Domain.
+
+

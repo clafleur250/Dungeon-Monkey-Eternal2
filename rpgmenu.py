@@ -153,14 +153,14 @@ class Menu( pygame.Rect ):
             for event in pygame.event.get():
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     if event.button == 4:
-                        print "event wheel down " #cassis
+                        #print "event wheel down " #cassis
                         self.selected_item -= 1
                         if self.selected_item < 0:
                             self.selected_item = len(self.items) - 1
                         if (self.selected_item < self.top_item) or (self.selected_item >= self.top_item + menu_height):
                             self.top_item = self.selected_item
                     if event.button == 5:
-                        print "event wheel up"#cassis
+                        #print "event wheel up"#cassis
                         self.selected_item += 1
                         if self.selected_item >= len(self.items):
                             self.selected_item = 0
@@ -199,7 +199,7 @@ class Menu( pygame.Rect ):
                 # counter telling that the button is down.
                 first_mouse_selection = self.get_mouseover_item( pc_input.pos )
                 first_mouse_y = pc_input.pos[1]
-                print pygame.mouse.get_pressed() #cassis
+                #print pygame.mouse.get_pressed() #cassis
                 if first_mouse_selection != None:
                     self.selected_item = first_mouse_selection
                 mouse_button_down = True

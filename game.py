@@ -34,6 +34,7 @@ import glob
 import random
 import chargen
 import charloader
+import os
 
 VERSION_ID = "0.4.0 Alpha"
 
@@ -135,6 +136,17 @@ def load_campaign( screen ):
         if camp:
             camp.play( screen )
 
+def Delete_saved_games(screen):
+    rpm = rpgmenu.Menu( screen,screen.get_width()//2-250,screen.get_height()//2-50,500,100,predraw=PosterRedraw(screen) )
+    rpm.add_files(util.user_dir("rpg_*.sav"))
+    rpm.sort()
+    rpm.add_alpha_keys()
+    rpm.add_item("Cancel Delete Saved Games", None)
+    cmd = rpm.query()
+    if cmd:
+        os.remove(cmd)
+
+
 def test_campaign_generator( screen ):
     camp = campaign.Campaign()
     for t in range( 100 ):
@@ -167,6 +179,7 @@ if __name__=="__main__":
 
     rpm.add_item( "Create Character", chargen.make_and_save_character )
     rpm.add_item( "Load Campaign", load_campaign )
+    rpm.add_item("Delete Saved Games", Delete_saved_games)
     rpm.add_item( "Start Endless Campaign", endless_start_campaign )
     #rpm.add_item( "Start Bardic Campaign", bardic_start_campaign )
     #rpm.add_item( "Start Gen1 Campaign", default_start_campaign )
